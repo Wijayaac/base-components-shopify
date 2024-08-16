@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "textmedia": {
+      "type": "textmedia"
+    }
+  },
+  "order": [
+    "textmedia"
+  ]
+}
