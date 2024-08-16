@@ -1,9 +1,10 @@
 {
-  "name": "reference-components",
+  "name": "reference-components-shopify",
   "version": "1.0.0",
   "description": "A sample collection of Shopify theme components built by Archetype Themes",
   "main": "playwright.setup.js",
   "scripts": {
+    "dev:component": "shopify theme component dev section-header css-variables es-module-shims font-preload-link font-faces is-land",
     "build": "shopify theme component dev --no-watch",
     "deploy": "source .env && shopify theme push --path .explorer --theme $SHOPIFY_CLI_THEME_ID --allow-live",
     "test": "npm run build && source .env && npm run deploy && playwright test --ui",

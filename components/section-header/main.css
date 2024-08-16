@@ -1,5 +1,12 @@
 @import '../../styles/helpers/color-schemes.css';
-
+.header-section {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 .main-header {
   display: grid;
   column-gap: var(--size-6);

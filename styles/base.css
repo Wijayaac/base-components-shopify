@@ -11,8 +11,13 @@ body {
   background-color: rgb(243 243 243);
   color: rgb(18 18 18);
   line-height: 1.4;
+  font-family: 'Inter', sans-serif;
 }
 
 [hidden] {
   display: none;
+}
+
+a {
+  color: inherit;
 }
